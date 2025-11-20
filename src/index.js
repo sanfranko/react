@@ -13,7 +13,6 @@ const elements = (<div className="name">
   <p>{helpText === "Help text!" ? "Yes" : "No"}</p>
 </div>)
 
-
 const app = ReactDOMClient.createRoot(document.getElementById("app"))
 
 app.render(elements)
